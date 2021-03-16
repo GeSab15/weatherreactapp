@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Buttons from "./Buttons";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="card-body">
+      <h1 className="card-title">
+        <img
+          src="http://openweathermap.org/img/wn/01d@2x.png"
+          id="icon"
+          alt="clear"
+        />
+      </h1>
+      <p className="card-text">
+        <span id="tempToday">-2</span>{" "}
+        <span id="units">
+          <a href="#" id="cel">
+            °C
+          </a>{" "}
+          |{" "}
+          <a href="#" id="fahr">
+            °F
+          </a>
+        </span>
+        <br />
+        <span id="date"></span>
+      </p>
+      <p className="city" id="currentCity">
+        Seoul
+        <br />
+      </p>
+      <Buttons />
     </div>
   );
 }
-
-export default App;

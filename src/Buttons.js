@@ -42,10 +42,6 @@ export default function SearchButton() {
           <li>Description:{result.Description}</li>
           <li>Humidity:{result.Humidity} %</li>
           <li>Wind:{result.Wind} km/h</li>
-          <li>
-            {" "}
-            <img src={result.icon} />{" "}
-          </li>
         </ui>
       </div>
     );

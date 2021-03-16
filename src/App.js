@@ -15,11 +15,11 @@ export default function App() {
       <p className="card-text">
         <span id="tempToday">-2</span>{" "}
         <span id="units">
-          <a href="#" id="cel">
+          <a href="/" id="cel">
             °C
           </a>{" "}
           |{" "}
-          <a href="#" id="fahr">
+          <a href="/" id="fahr">
             °F
           </a>
         </span>

@@ -2,15 +2,19 @@
   background-color: rgba(185, 184, 184, 0.8);
 }
 .container {
-  margin: 100px auto;
+  margin: 120px auto;
   border-radius: 8px;
 }
 .card {
+  text-align: center;
+  margin: auto;
+  display: block;
   background-repeat: no-repeat;
   background-color: rgba(185, 184, 184, 0.3);
   background-size: 100% 100%;
   border-radius: 8px;
   font-weight: 800;
+  width: 1200px;
 }
 .weatherForecast {
   text-align: center;
@@ -32,4 +36,10 @@
 #units {
   position: relative;
   top: -13px;
+}
+body {
+  background-image: linear-gradient(to top, #50cc7f 0%, #f5d100 100%);
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

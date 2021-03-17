@@ -1,0 +1,16 @@
+.container .t {
+  margin: auto;
+  width: 50%;
+}
+.card-body2 {
+  margin-top: 17px;
+  text-align: center;
+}
+.heading {
+  font-size: 18px;
+}
+table {
+  margin: auto;
+  width: 70%;
+  table-layout: fixed;
+}

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { StrictMode } from "react";
+import ReactDOM from "react-dom";
 import background from "./media/season.jpg";
 import App from "./App";
 import Link from "./Link";
@@ -23,3 +24,10 @@ export default function Weather() {
     </div>
   );
 }
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <StrictMode>
+    <Weather />
+  </StrictMode>,
+  rootElement
+);

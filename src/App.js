@@ -1,5 +1,6 @@
 import React from "react";
 import Buttons from "./Buttons";
+import Table from "./Table";
 import "./App.css";
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
         <br />
       </p>
       <Buttons />
+      <Table />
     </div>
   );
 }

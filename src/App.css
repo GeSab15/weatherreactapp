@@ -1,4 +1,5 @@
 .card-body {
+  display: block;
   border-radius: 8px;
   background-color: rgba(185, 184, 184, 0.8);
   text-align: center;

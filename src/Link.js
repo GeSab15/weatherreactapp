@@ -6,7 +6,7 @@ export default function Link() {
     <div class="link">
       Coded by Gerril Lañada
       <br />
-      <a href="https://github.com/GeSab15/WeatherProject">
+      <a href="https://github.com/GeSab15/weatherreactapp">
         Click this GitHub link for repository
       </a>
     </div>
